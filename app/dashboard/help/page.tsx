@@ -29,7 +29,7 @@ export default function Help() {
             Help & Guide
           </h2>
           <p className={isDark ? 'text-gray-400 mt-1' : 'text-gray-500 mt-1'}>
-            Everything you need to know about Altron
+            Everything you need to know about zesynnc
           </p>
         </header>
 
@@ -184,7 +184,7 @@ export default function Help() {
                 isDark ? 'bg-[#0a0e27]' : 'bg-gray-50'
               }`}>
                 <p className={`mb-3 ${isDark ? 'text-gray-300' : 'text-gray-700'}`}>
-                  Altron requires the File System Access API:
+                  zesynnc requires the File System Access API:
                 </p>
                 <div className="flex flex-wrap gap-2">
                   <span className={`px-3 py-1.5 rounded-lg text-sm font-medium ${

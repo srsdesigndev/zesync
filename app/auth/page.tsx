@@ -98,7 +98,7 @@ export default function GetStarted() {
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
     a.href = url;
-    a.download = 'altron-master-key.txt';
+    a.download = 'zesync-master-key.txt';
     document.body.appendChild(a);
     a.click();
     document.body.removeChild(a);
@@ -126,7 +126,7 @@ export default function GetStarted() {
                 }`} />
               </div>
               <h1 className={`text-4xl font-bold mb-4 ${isDark ? 'text-white' : 'text-gray-900'}`}>
-                Welcome to Altron
+                Welcome to zesync
               </h1>
               <p className={`text-lg mb-2 ${isDark ? 'text-gray-300' : 'text-gray-700'}`}>
                 Local Password Manager

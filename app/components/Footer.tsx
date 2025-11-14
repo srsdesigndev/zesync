@@ -16,7 +16,7 @@ export default function Footer() {
     >
       <div className="flex justify-between items-center text-sm">
         <p className={isDark ? 'text-gray-400' : 'text-gray-600'}>
-          © 2025 Altron — Local & Secure Password Manager
+          © 2025 zesync — Local & Secure Password Manager
         </p>
         <div className="flex items-center gap-4">
           <p className={isDark ? 'text-gray-500' : 'text-gray-500'}>

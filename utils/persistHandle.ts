@@ -1,6 +1,6 @@
 // utils/persistHandle.ts
 
-const DB_NAME = 'altron-db';
+const DB_NAME = 'zesynnc-db';
 const STORE_NAME = 'directory-handles';
 const HANDLE_KEY = 'vault-directory';
 
@@ -55,7 +55,7 @@ export async function getDirectoryHandle(): Promise<FileSystemDirectoryHandle | 
     if (handle) {
       try {
         // Verify handle is still valid by trying to get a file
-        await handle.getFileHandle('.altron-test', { create: true });
+        await handle.getFileHandle('.zesynnc-test', { create: true });
         return handle;
       } catch (error) {
         console.log('Directory handle no longer valid');

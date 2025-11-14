@@ -29,7 +29,7 @@ function LandingContent() {
           <div className="flex items-center gap-3">
             <i className={`fas fa-shield-alt text-2xl ${isDark ? 'text-[#00d9ff]' : 'text-blue-600'}`}></i>
             <Link href="/" className="text-xl font-bold hover:opacity-80 transition">
-              Altron
+              ZeSync
             </Link>
           </div>
           
@@ -87,7 +87,7 @@ function LandingContent() {
                     : 'bg-gradient-to-r from-blue-600 to-purple-600 text-white hover:opacity-90'
                 }`}
               >
-                <i className="fas fa-rocket"></i> Launch Altron
+                <i className="fas fa-rocket"></i> Launch zesynnc
               </Link>
               
               <a
@@ -302,7 +302,7 @@ function LandingContent() {
             <div className="text-center md:text-left">
               <div className="flex items-center gap-3 mb-3 justify-center md:justify-start">
                 <i className={`fas fa-shield-alt text-2xl ${isDark ? 'text-[#00d9ff]' : 'text-blue-600'}`}></i>
-                <span className="font-bold text-xl">Altron</span>
+                <span className="font-bold text-xl">zesynnc</span>
               </div>
               <p className={`text-sm ${isDark ? 'text-gray-400' : 'text-gray-600'}`}>
                 Local Password Manager
@@ -326,7 +326,7 @@ function LandingContent() {
 
             <div className="flex items-center gap-6">
               <a
-                href="https://github.com/srsdesigndev/altron"
+                href="https://github.com/srsdesigndev/zesynnc"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={`hover:opacity-70 transition ${isDark ? 'text-gray-300' : 'text-gray-600'}`}
@@ -349,7 +349,7 @@ function LandingContent() {
           <div className={`border-t pt-8 ${isDark ? 'border-[#2a3150]' : 'border-gray-200'}`}>
             <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-center md:text-left">
               <div className={`text-sm ${isDark ? 'text-gray-400' : 'text-gray-600'}`}>
-                © 2025 Altron. Open Source & Free Forever.
+                © 2025 zesynnc. Open Source & Free Forever.
               </div>
               <div className={`text-sm ${isDark ? 'text-gray-400' : 'text-gray-600'}`}>
                 Encrypted Locally • AES-256 • No Cloud Storage

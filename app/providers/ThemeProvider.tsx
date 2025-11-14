@@ -19,7 +19,7 @@ export function ThemeProvider({ children }: { children: ReactNode }) {
   useEffect(() => {
     setMounted(true);
     // Load theme from localStorage after component mounts (client-side only)
-    const savedTheme = localStorage.getItem('altron-theme') as Theme;
+    const savedTheme = localStorage.getItem('zesynnc-theme') as Theme;
     if (savedTheme) {
       setThemeState(savedTheme);
     } else {
@@ -31,7 +31,7 @@ export function ThemeProvider({ children }: { children: ReactNode }) {
 
   const setTheme = (newTheme: Theme) => {
     setThemeState(newTheme);
-    localStorage.setItem('altron-theme', newTheme);
+    localStorage.setItem('zesynnc-theme', newTheme);
   };
 
   const toggleTheme = () => {

@@ -35,7 +35,7 @@ export default function Sidebar({ onLogout }: SidebarProps) {
           <h1 className={`text-2xl font-bold ${
             isDark ? 'text-white' : 'text-gray-900'
           }`}>
-            Altron
+            zesynnc
           </h1>
         </div>
         <p className={`text-sm ${isDark ? 'text-gray-400' : 'text-gray-500'}`}>
